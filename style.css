@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    position:relative;
+    margin: -7.8px;
+    width:100vw;
+    background: #F55A5A;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight:500;
+    font-size:15px;
+    height:55px;
+    gap:4px;
+}
+
+.navbar > img{
+    border-radius: 13px;
+    width:24px;
+    height:24px;
+}
+
+.card{
+    
+    margin-top:45px;
+    margin-left:40px;
+    display: flex;
+    gap:19px;
+}
+.card > img{
+    width: 125px;
+    height:168px;
+    border-radius:8px;
+}
+
+
+.location{
+    position: relative;
+    font-family: "Inter";
+    font-size:11px;
+    font-weight:400;
+    letter-spacing: 0.09em;
+    color: #2B283A;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+.title{
+    font-family:"Inter";
+    font-size:25px;
+    font-weight:700;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.date{
+    font-family: "Inter";
+    font-size: 11px;
+    font-weight:700;
+    line-height: 12px;
+}
+.description{
+    font-family: "Inter";
+    font-size:11px;
+    font-weight: 400;
+    margin-top: 0px;
+    letter-spacing: 0.05em;
+}
+
+.maps{
+    position: absolute;
+    margin-left:12px;
+    text-transform: capitalize;
+    font-family:"Inter";
+    font-size:11px;
+    font-weight:400;
+    color: #918E9B;
+    line-height: 12px;
+    text-decoration-line: underline;
+}
+hr{
+    margin-top:70px;
+    margin-left: -140px;
+    height:0px;
+    border:1px solid #F5F5F5;
+    width:100vw;
+}
